@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.accordion-wrapper {
+  margin: 50px auto;
+  width: 500px;
+}
+
+.accordion {
+  border: 1px solid #000;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.accordion.active .accordion-body {
+  max-height: 100px;
+  overflow: auto;
+}
+
+.accordion-title {
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.content {
+  padding: 10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .pop-over {
+        position: absolute;
+        width: 200px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        top: 50px;
+        display: none;
+      }
+      /* .pop-over::before {
+        content: ' ';
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+        position: relative;
+        left: 50%;
+      } */
+      .button {
+        padding: 10px;
+        background: green;
+        border-radius: 4px;
+        color: white;
+        position: relative;
+      }
+      .container {
+        position: relative;
+      }
+      .arrow {
+        position: absolute;
+        top: -6px;
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        left: 50%;
+        border-left: 1px solid grey;
+        border-top: 1px solid grey;
+        transform: translateX(-50%)rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <button onclick="togglePopOver()" class="button">Click me to show Pop Over</button>
+        <div class="pop-over">
+          <div class="content">
+            <h1>I am a pop over title</h1>
+            <div>I am a pop over content</div>
+          </div>
+          <div class="arrow"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

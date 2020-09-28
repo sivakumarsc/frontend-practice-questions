@@ -1,0 +1,23 @@
+h1 {
+  color: yellow;
+}
+
+.star-container .star {
+  margin-right: 25px;
+  color: grey;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.star-container .star.rated {
+  color: yellow;
+}
+
+.star-container:hover .star {
+  color: yellow;
+}
+
+.star-container .star:hover ~ .star {
+  color: grey;
+}
