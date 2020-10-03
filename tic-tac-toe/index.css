@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.game-result {
+  text-align: center;
+  display: none;
+  font-size: 18px;
+}
+
+.restart-game {
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}

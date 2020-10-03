@@ -12,4 +12,5 @@ Created this repo for practicing some common frontend interview questions. The a
 * [Throtlle](https://github.com/scsiva1991/frontend-practice-questions/tree/master/throttle)
 * [Custom Promise](https://github.com/scsiva1991/frontend-practice-questions/tree/master/custom-promise)
 * [Modal](https://github.com/scsiva1991/frontend-practice-questions/tree/master/modal)
+* [Tic-Tac-Toe](https://github.com/scsiva1991/frontend-practice-questions/tree/master/tic-tac-toe)
 
