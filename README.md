@@ -9,5 +9,7 @@ Created this repo for practicing some common frontend interview questions. The a
 * [Popover](https://github.com/scsiva1991/frontend-practice-questions/tree/master/popover)
 * [Star Rating](https://github.com/scsiva1991/frontend-practice-questions/tree/master/star)
 * [Debounce](https://github.com/scsiva1991/frontend-practice-questions/tree/master/debounce)
-[Throtlle](https://github.com/scsiva1991/frontend-practice-questions/tree/master/throttle)
-[Custom Promise](https://github.com/scsiva1991/frontend-practice-questions/tree/master/custom-promise)
+* [Throtlle](https://github.com/scsiva1991/frontend-practice-questions/tree/master/throttle)
+* [Custom Promise](https://github.com/scsiva1991/frontend-practice-questions/tree/master/custom-promise)
+* [Modal](https://github.com/scsiva1991/frontend-practice-questions/tree/master/modal)
+
