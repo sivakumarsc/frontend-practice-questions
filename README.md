@@ -13,4 +13,5 @@ Created this repo for practicing some common frontend interview questions. The a
 * [Custom Promise](https://github.com/scsiva1991/frontend-practice-questions/tree/master/custom-promise)
 * [Modal](https://github.com/scsiva1991/frontend-practice-questions/tree/master/modal)
 * [Tic-Tac-Toe](https://github.com/scsiva1991/frontend-practice-questions/tree/master/tic-tac-toe)
+* [Function chaining](https://github.com/scsiva1991/frontend-practice-questions/tree/master/function-chain)
 
