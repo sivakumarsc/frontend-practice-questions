@@ -1,6 +1,7 @@
 # frontend-practice-questions
 Created this repo for practicing some common frontend interview questions. The answers given are **functional but may not follow best practices.** 
 
+## Common Interview Questions
 
 * [Accordion](https://github.com/scsiva1991/frontend-practice-questions/tree/master/accordion)
 * [Carousel](https://github.com/scsiva1991/frontend-practice-questions/tree/master/carousel)
@@ -15,3 +16,6 @@ Created this repo for practicing some common frontend interview questions. The a
 * [Tic-Tac-Toe](https://github.com/scsiva1991/frontend-practice-questions/tree/master/tic-tac-toe)
 * [Function chaining](https://github.com/scsiva1991/frontend-practice-questions/tree/master/function-chain)
 
+## Data Structures
+
+* [Trie](https://github.com/scsiva1991/frontend-practice-questions/tree/master/data-strutures/trie)
