@@ -4,6 +4,7 @@
  * Time Complexity
  * Insertion - O(log n)
  * Deletion - O(log n)
+ * To get min value - O(1)
  */
 class MinHeap {
   constructor(heapSize) {
@@ -46,10 +47,10 @@ class MinHeap {
     this.currentSize -= 1;
     let index = 1;
 
-    while(index < this.currentSize && index < Math.floor(index/2)) {
+    while(index < this.currentSize && index <= Math.floor(this.currentSize/2)) {
       let left = index * 2, right = index * 2 + 1;
       if (this.minHeap[index] > this.minHeap[left] || this.minHeap[index] > this.minHeap[right]) {
-        if (this.minHeap[index] > this.minHeap[left]) {
+        if (this.minHeap[left] < this.minHeap[right]) {
           [this.minHeap[index], this.minHeap[left]] = [this.minHeap[left], this.minHeap[index]];
           index = left;
         } else {
@@ -62,6 +63,10 @@ class MinHeap {
     }
 
     return itemToBeRemoved;
+  }
+
+  size() {
+    return this.currentSize;
   }
 }
 
