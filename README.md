@@ -20,3 +20,4 @@ Created this repo for practicing some common frontend interview questions. The a
 
 * [Trie](https://github.com/scsiva1991/frontend-practice-questions/tree/master/data-structures/trie)
 * [Heap](https://github.com/scsiva1991/frontend-practice-questions/tree/master/data-structures/heap)
+* [Disjoint Set](https://github.com/scsiva1991/frontend-practice-questions/tree/master/data-structures/disjoint-set)
