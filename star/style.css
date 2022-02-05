@@ -1,23 +1,21 @@
-h1 {
-  color: yellow;
+rating-container * {
+  padding: 0;
+  margin: 0;
 }
 
-.star-container .star {
-  margin-right: 25px;
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  font-size: 40px;
   color: grey;
-  display: inline-block;
   cursor: pointer;
-  font-size: 20px;
 }
 
-.star-container .star.rated {
-  color: yellow;
-}
-
-.star-container:hover .star {
-  color: yellow;
-}
-
-.star-container .star:hover ~ .star {
-  color: grey;
+ul li.active,
+ul li:hover {
+  color: gold;
+  transform: scale(1.2);
 }
