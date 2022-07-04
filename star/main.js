@@ -17,19 +17,6 @@ window.addEventListener("load", function() {
       }
     }
   });
-  starContainer.addEventListener("click", function(el) {
-  	if (el.target.dataset.id) {
-    	let currentIndex = el.target.dataset.id;
-      
-      for(let i=0; i<stars.length; i+=1) {
-      	if (i <= currentIndex - 1) {
-        	stars[i].classList.add("active");
-        } else {
-        	stars[i].classList.remove("active");
-        }
-      }
-    }
-  });
   starContainer.addEventListener("mouseover", function(el) {
   	if (el.target.dataset.id) {
     	let currentIndex = el.target.dataset.id;
